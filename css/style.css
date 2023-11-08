@@ -63,3 +63,6 @@ button:active {
     background-color: #61290d;
 }
 
+button:disabled {
+    background-color: rgb(0, 26, 255);
+}
