@@ -155,10 +155,10 @@ body {
 
 .download-app {
     display: inline-block;
-    padding-right: 50px;
+    padding: 20px 60px;
     background-repeat: no-repeat;
     background-position: right center;
-    text-decoration: none;
+    text-decoration: none;
 }
 
 .google-play {
