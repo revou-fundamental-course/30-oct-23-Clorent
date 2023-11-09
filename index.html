@@ -3,24 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>KALKULATOR BMI</title>
+    <style>
+        body {
+          background-image: url('https://t4.ftcdn.net/jpg/03/26/93/21/360_F_326932160_C2FhYsvUg0vxGJjiMKpTn7JWepR1BpED.jpg');
+          background-repeat:no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
 </head>
 <body>
     <header id="header-bar">
-        <h3 id="logo">BMI COUNT</h3>
+        <h1 id="logo">AYO HITUNG BMI</h1>
         <nav class="navigation-bar">
-            <a href="">Download App</a>
-            <a href=""> Contact Us</a>
+            <a href="google-play">Google Play</a>          
+            <a href="app-store">App Store</a>
         </nav>
     </header>
-    <section class="input-section">
-        <label for="weight-input">Berat Badan</label>
-        <input type="number" id="weight-input" placeholder="0">
-        <section class="button-section">
-            <button>Hitung BMI</button>
-            <button>Reset</button>
-        </section>
+    <section id="text-awal">
+        <h3>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang
+        <br>
+        penampilan, berat badan ideal  juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?
+        <br>
+        Yuk, hitung sekarang di kalkulator BMI.</h3>
     </section>
+    <section id="container">
+        <label for="weight-input" id="wlabel">Berat Badan(kg):</label><input type="text" id="weight-input">
+        <label for="height-input" id="hlabel">Tinggi Badan(cm):</label><input type="text" id="height-input">
+        <button id="btn">Calculate</button>
+        <label for="bmi-output" id="bmilabel">Hasil BMI:</label><input type="text" id="bmi-output">
+    </section>
+    <section id="table">
+        <table>
+            <caption>BMI INDEX</caption>
+            <tr>
+              <th>Underweight</th>
+              <th>Healthy</th> 
+              <th>Overweight</th>
+              <th>Obese</th>
+            </tr>
+            <tr>
+              <td>Below 18.5</td>
+              <td>18.5–24.9</td>
+              <td>25.0–29.9</td>
+              <td>30.0 and above</td>
+            </tr>
+          </table>
+    </section>
+    <section id="text-akhir">
+        <h2>Keunggulan Fitur</h2>
+        <h3>1. Menghitung berat badan
+            <br>
+            2. Menentukan kategori berat badan ideal atau tidak
+            <br>
+            3. Mempersiapkan program penurunan berat badan</h4>
+        <h3>Kalkulator ini  hanya boleh digunakan oleh orang dewasa (Wanita hamil atau menyusui tidak boleh
+            <br>
+            mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya
+            <br>
+            selain berkonsultasi dengan orang yang memenuhi syarat seperti Dokter.
+        </h3>
+        <h3>Kalkulator akan memberi anda gambaran tentang perbandingan berat badan Anda dengan nilai
+            <br>
+            umum, Indeks Masa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi
+            <br>
+            dengan kuadrat tinggi badan Anda (dalam meter)
+        </h3>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
