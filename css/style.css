@@ -1,6 +1,8 @@
 html {
-    background-color: white;
+    background-color: #47d4ec;
     height: 100%;
+    filter: contrast(100%);
+    filter: brightness(90%);
 }
 
 #header-bar {
@@ -9,10 +11,10 @@ html {
 }
 
 #logo {
-    color: rgba(226, 18, 105, 0.986);
+    color: rgba(241, 10, 118, 0.986);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navigation-bar {
@@ -133,13 +135,38 @@ table, caption {
 }
 
 #text-awal {
-    color: rgb(7, 7, 27);
+    color: black;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #text-akhir {
-    color: rgb(7, 7, 27);
+    color: black;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+body {
+    background-image: url('https://png.pngtree.com/png-vector/20221020/ourmid/pngtree-tiny-women-near-obese-chart-scales-isolated-flat-vector-illustration-png-image_6330965.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 90% 80%;
+}
+
+.download-app {
+    display: inline-block;
+    padding-right: 50px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    text-decoration: none;
+}
+
+.google-play {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png');
+        background-size: 110px;
+    }
+
+.app-store {
+        background-image: url('https://cdn.freebiesupply.com/logos/large/2x/download-on-the-app-store-apple-logo-png-transparent.png');
+        background-size: 110px;
+    }
